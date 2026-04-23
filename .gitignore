@@ -1,0 +1,30 @@
+# Data - never push raw data to GitHub
+data/
+
+# Environments
+venv/
+envs/
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Mac
+.DS_Store
+
+# Models (too large for GitHub)
+*.pkl
+*.joblib
+*.model
+
+# Logs
+*.log
+logs/
