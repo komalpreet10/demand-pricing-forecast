@@ -112,6 +112,4 @@ Open the notebooks from the `notebooks/` directory and run them in numeric order
 ## Modeling Objective
 
 The immediate modeling target is to beat the best baseline RMSE of `2.0970` on a
-28-day holdout split. LightGBM is used because it handles large tabular datasets,
-categorical features, sparse intermittent demand, lagged time-series signals,
-calendar effects, and price features in one global model.
+28-day holdout split. 
